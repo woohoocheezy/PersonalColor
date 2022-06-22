@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Color/Upload</title>
+    </head>
+    <body>
+        <center><h1>Upload File</h1></center>
+{#        <hr width="100%" color="black"/>#}
+{#        <center><h3>Upload File!</h3></center>#}
+        <hr width="100%" color="black"/>
+
+        <img src="{{ url_for('static',filename='images/upload.png') }}", width="100"
+             style="margin-left: auto; margin-right: auto; display: block;")/>
+
+        <br><br><center>
+        <form action = "/result" method = "POST"
+             enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+        </form></center>
+    </body>
+
+</html>
