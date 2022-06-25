@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="static/css/styles.css">
+        <title>Personal Color/Upload</title>
+    </head>
+    <body>
+        <center><h1>Upload File</h1></center>
+{#        <hr width="100%" color="black"/>#}
+{#        <center><h3>Upload File!</h3></center>#}
+        <hr width="100%" color="black"/>
+
+        <img src="{{ url_for('static',filename='images/upload.png') }}", width="100"
+             style="margin-left: auto; margin-right: auto; display: block;")/>
+
+        <br><br><center>
+        <form action = "/result" method = "POST"
+             enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+        </form></center>
+
+    <div class="slider1">
+        <img class="slider" src="static/images/1001.jpg">
+        <img class="slider" src="static/images/2001.jpg">
+        <img class="slider" src="static/images/3001.jpg">
+    </div>
+    </body>
+</html>
+
+<script>
+    var index = 0;   //이미지에 접근하는 인덱스
+    window.onload = function(){
+        slideShow();
+    }
+
+    function slideShow() {
+    var i;
+    var x = document.getElementsByClassName("slider");  //slide1에 대한 dom 참조
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
+    }
+    index++;
+    if (index > x.length) {
+        index = 1;  //인덱스가 초과되면 1로 변경
+    }
+    x[index-1].style.display = "block";  //해당 인덱스는 block으로
+    setTimeout(slideShow, 1500);   //함수를 4초마다 호출
+
+}
+</script>

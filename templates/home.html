@@ -1,51 +1,81 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <link rel="stylesheet" href="static/css/styles.css">
-        <title>Personal Color/Upload</title>
-    </head>
-    <body>
-        <center><h1>Upload File</h1></center>
-{#        <hr width="100%" color="black"/>#}
-{#        <center><h3>Upload File!</h3></center>#}
-        <hr width="100%" color="black"/>
+	<head>
+		<title>YBIGTA by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
 
-        <img src="{{ url_for('static',filename='images/upload.png') }}", width="100"
-             style="margin-left: auto; margin-right: auto; display: block;")/>
+	<body class="is-preload">
 
-        <br><br><center>
-        <form action = "/result" method = "POST"
-             enctype = "multipart/form-data">
-        <input type = "file" name = "file" />
-        <input type = "submit"/>
-        </form></center>
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">봄여름가을겨울</a></h1>
+					<p> AI Personal Color<br />
+					<a>YBIGTA</a></p>
+					<form action="/result" method="POST" enctype="multipart/form-data">
+					<ul class="actions">
+							<li><label class="button primary icon solid fa-download" for="input-file">Upload</label></li>
+							<input type="file" name="file" id="input-file" style="display:none"/>
+							<li><label class="button icon solid fa-chevron-down scrolly" for = 'submit-file'>Analyzing</label></li>
+							<input type="submit" id="submit-file" style="display:none"/>
+					</ul>
+					</form>
 
-    <div class="slider1">
-        <img class="slider" src="static/images/1001.jpg">
-        <img class="slider" src="static/images/2001.jpg">
-        <img class="slider" src="static/images/3001.jpg">
-    </div>
-    </body>
+				</div>
+				
+				<div class="image phone">
+					<div class="inner">
+						<div id="slider1">
+                            <img class="slider" src="static/images/spring.jpg">
+							<img class="slider" src="static/images/summer.jpg">
+							<img class="slider" src="static/images/fall.jpg">
+							<img class="slider" src="static/images/winter.jpg">
+						</div>
+					</div>
+				</div>
+						
+				
+			</header>
+            <script>
+				var index = 0;   //이미지에 접근하는 인덱스
+				window.onload = function(){
+					slideShow();
+				}
+
+				function slideShow() {
+				var i;
+				var x = document.getElementsByClassName("slider");  //slide1에 대한 dom 참조
+				for (i = 0; i < x.length; i++) {
+				   x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
+				}
+				index++;
+				if (index > x.length) {
+					index = 1;  //인덱스가 초과되면 1로 변경
+				}
+				x[index-1].style.display = "block";  //해당 인덱스는 block으로
+				setTimeout(slideShow, 3000);   //함수를 4초마다 호출
+
+			}
+			</script>
+	
+	
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
 </html>
-
-<script>
-    var index = 0;   //이미지에 접근하는 인덱스
-    window.onload = function(){
-        slideShow();
-    }
-
-    function slideShow() {
-    var i;
-    var x = document.getElementsByClassName("slider");  //slide1에 대한 dom 참조
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
-    }
-    index++;
-    if (index > x.length) {
-        index = 1;  //인덱스가 초과되면 1로 변경
-    }
-    x[index-1].style.display = "block";  //해당 인덱스는 block으로
-    setTimeout(slideShow, 1500);   //함수를 4초마다 호출
-
-}
-</script>

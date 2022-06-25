@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request
-from werkzeug.utils import secure_filename
-import os
-
-#app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024 # 16MB 제한
+from PIL import Image
+import model
 
 app = Flask(__name__)
 
@@ -14,15 +12,19 @@ def home():  # upload a photo
 def result(): # a predicted result of the photo
     if request.method == 'POST':
         f = request.files['file']
-        f.save('./uploads/' + secure_filename(f.filename))
 
         # model predict
-        predict_num = 1
+        img = Image.open(f)
+        predict_num = model.inference(img)
 
         if predict_num == 0:
-            return render_template('result.html')
+            return render_template('spring.html')
         elif predict_num == 1:
-            return render_template('result1.html')
+            return render_template('summer.html')
+        elif predict_num == 2:
+            return render_template('fall.html')
+        else :
+            return render_template('winter.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug = True)
