@@ -15,7 +15,11 @@ def result(): # a predicted result of the photo
 
         # model predict
         img = Image.open(f)
+        size = (1000,1000)
+        
+        img.thumbnail(size, Image.ANTIALIAS)
         predict_num = model.inference(img)
+        print(predict_num)
 
         if predict_num == 0:
             return render_template('spring.html')

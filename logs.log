@@ -1,0 +1,2555 @@
+2022-06-25 03:18:14,190:INFO:Initializing load_model()
+2022-06-25 03:18:14,191:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:18:14,362:INFO:Initializing predict_model()
+2022-06-25 03:18:14,362:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:18:14,362:INFO:Checking exceptions
+2022-06-25 03:18:14,362:INFO:Preloading libraries
+2022-06-25 03:19:20,836:INFO:Initializing load_model()
+2022-06-25 03:19:20,836:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:19:20,991:INFO:Initializing predict_model()
+2022-06-25 03:19:20,991:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:19:20,991:INFO:Checking exceptions
+2022-06-25 03:19:20,991:INFO:Preloading libraries
+2022-06-25 03:19:40,514:INFO:Initializing load_model()
+2022-06-25 03:19:40,514:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:19:40,678:INFO:Initializing predict_model()
+2022-06-25 03:19:40,679:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:19:40,679:INFO:Checking exceptions
+2022-06-25 03:19:40,679:INFO:Preloading libraries
+2022-06-25 03:19:57,909:INFO:Initializing load_model()
+2022-06-25 03:19:57,909:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:19:58,076:INFO:Initializing predict_model()
+2022-06-25 03:19:58,076:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:19:58,076:INFO:Checking exceptions
+2022-06-25 03:19:58,076:INFO:Preloading libraries
+2022-06-25 03:20:53,333:INFO:Initializing load_model()
+2022-06-25 03:20:53,334:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:20:53,501:INFO:Initializing predict_model()
+2022-06-25 03:20:53,501:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:20:53,501:INFO:Checking exceptions
+2022-06-25 03:20:53,501:INFO:Preloading libraries
+2022-06-25 03:21:15,276:INFO:Initializing load_model()
+2022-06-25 03:21:15,276:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:21:15,430:INFO:Initializing predict_model()
+2022-06-25 03:21:15,431:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:21:15,431:INFO:Checking exceptions
+2022-06-25 03:21:15,431:INFO:Preloading libraries
+2022-06-25 03:21:33,459:INFO:Initializing load_model()
+2022-06-25 03:21:33,459:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:21:33,624:INFO:Initializing predict_model()
+2022-06-25 03:21:33,624:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:21:33,624:INFO:Checking exceptions
+2022-06-25 03:21:33,624:INFO:Preloading libraries
+2022-06-25 03:22:13,912:INFO:Initializing load_model()
+2022-06-25 03:22:13,912:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:22:14,076:INFO:Initializing predict_model()
+2022-06-25 03:22:14,076:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:22:14,076:INFO:Checking exceptions
+2022-06-25 03:22:14,076:INFO:Preloading libraries
+2022-06-25 03:23:07,468:INFO:Initializing load_model()
+2022-06-25 03:23:07,468:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:23:07,631:INFO:Initializing predict_model()
+2022-06-25 03:23:07,631:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:23:07,631:INFO:Checking exceptions
+2022-06-25 03:23:07,631:INFO:Preloading libraries
+2022-06-25 03:23:37,748:INFO:Initializing load_model()
+2022-06-25 03:23:37,748:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:23:37,911:INFO:Initializing predict_model()
+2022-06-25 03:23:37,911:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:23:37,912:INFO:Checking exceptions
+2022-06-25 03:23:37,912:INFO:Preloading libraries
+2022-06-25 03:24:10,135:INFO:Initializing load_model()
+2022-06-25 03:24:10,135:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:24:10,286:INFO:Initializing predict_model()
+2022-06-25 03:24:10,286:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:24:10,286:INFO:Checking exceptions
+2022-06-25 03:24:10,286:INFO:Preloading libraries
+2022-06-25 03:24:38,121:INFO:Initializing load_model()
+2022-06-25 03:24:38,121:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:24:38,266:INFO:Initializing predict_model()
+2022-06-25 03:24:38,266:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:24:38,266:INFO:Checking exceptions
+2022-06-25 03:24:38,266:INFO:Preloading libraries
+2022-06-25 03:24:59,751:INFO:Initializing load_model()
+2022-06-25 03:24:59,751:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:24:59,896:INFO:Initializing predict_model()
+2022-06-25 03:24:59,896:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:24:59,896:INFO:Checking exceptions
+2022-06-25 03:24:59,896:INFO:Preloading libraries
+2022-06-25 03:25:17,108:INFO:Initializing load_model()
+2022-06-25 03:25:17,108:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:25:17,268:INFO:Initializing predict_model()
+2022-06-25 03:25:17,268:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:25:17,268:INFO:Checking exceptions
+2022-06-25 03:25:17,268:INFO:Preloading libraries
+2022-06-25 03:25:33,360:INFO:Initializing load_model()
+2022-06-25 03:25:33,360:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:25:33,506:INFO:Initializing predict_model()
+2022-06-25 03:25:33,506:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:25:33,506:INFO:Checking exceptions
+2022-06-25 03:25:33,506:INFO:Preloading libraries
+2022-06-25 03:25:58,683:INFO:Initializing load_model()
+2022-06-25 03:25:58,683:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:25:58,847:INFO:Initializing predict_model()
+2022-06-25 03:25:58,847:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:25:58,847:INFO:Checking exceptions
+2022-06-25 03:25:58,847:INFO:Preloading libraries
+2022-06-25 03:26:20,743:INFO:Initializing load_model()
+2022-06-25 03:26:20,743:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:26:20,888:INFO:Initializing predict_model()
+2022-06-25 03:26:20,888:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:26:20,888:INFO:Checking exceptions
+2022-06-25 03:26:20,888:INFO:Preloading libraries
+2022-06-25 03:26:44,831:INFO:Initializing load_model()
+2022-06-25 03:26:44,831:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:26:44,981:INFO:Initializing predict_model()
+2022-06-25 03:26:44,981:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:26:44,981:INFO:Checking exceptions
+2022-06-25 03:26:44,981:INFO:Preloading libraries
+2022-06-25 03:27:04,672:INFO:Initializing load_model()
+2022-06-25 03:27:04,672:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:27:04,818:INFO:Initializing predict_model()
+2022-06-25 03:27:04,818:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:27:04,818:INFO:Checking exceptions
+2022-06-25 03:27:04,818:INFO:Preloading libraries
+2022-06-25 03:27:26,319:INFO:Initializing load_model()
+2022-06-25 03:27:26,319:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 03:27:26,477:INFO:Initializing predict_model()
+2022-06-25 03:27:26,477:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 03:27:26,478:INFO:Checking exceptions
+2022-06-25 03:27:26,478:INFO:Preloading libraries
+2022-06-25 04:50:46,500:INFO:Initializing load_model()
+2022-06-25 04:50:46,517:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 04:50:48,971:INFO:Initializing predict_model()
+2022-06-25 04:50:48,976:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 04:50:48,982:INFO:Checking exceptions
+2022-06-25 04:50:48,987:INFO:Preloading libraries
+2022-06-25 04:51:32,124:INFO:Initializing load_model()
+2022-06-25 04:51:32,124:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 04:51:32,277:INFO:Initializing predict_model()
+2022-06-25 04:51:32,277:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 04:51:32,277:INFO:Checking exceptions
+2022-06-25 04:51:32,277:INFO:Preloading libraries
+2022-06-25 05:00:30,423:INFO:Initializing load_model()
+2022-06-25 05:00:30,423:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:00:30,591:INFO:Initializing predict_model()
+2022-06-25 05:00:30,591:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:00:30,591:INFO:Checking exceptions
+2022-06-25 05:00:30,592:INFO:Preloading libraries
+2022-06-25 05:02:12,846:INFO:Initializing load_model()
+2022-06-25 05:02:12,851:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:02:19,380:INFO:Initializing predict_model()
+2022-06-25 05:02:19,385:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:02:19,396:INFO:Checking exceptions
+2022-06-25 05:02:19,401:INFO:Preloading libraries
+2022-06-25 05:17:26,493:INFO:Initializing load_model()
+2022-06-25 05:17:26,493:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:17:26,661:INFO:Initializing predict_model()
+2022-06-25 05:17:26,661:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:17:26,661:INFO:Checking exceptions
+2022-06-25 05:17:26,661:INFO:Preloading libraries
+2022-06-25 05:17:29,034:INFO:Initializing load_model()
+2022-06-25 05:17:29,034:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:17:29,201:INFO:Initializing predict_model()
+2022-06-25 05:17:29,201:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:17:29,201:INFO:Checking exceptions
+2022-06-25 05:17:29,201:INFO:Preloading libraries
+2022-06-25 05:19:54,748:INFO:Initializing load_model()
+2022-06-25 05:19:54,749:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:19:54,914:INFO:Initializing predict_model()
+2022-06-25 05:19:54,914:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:19:54,914:INFO:Checking exceptions
+2022-06-25 05:19:54,914:INFO:Preloading libraries
+2022-06-25 05:21:05,049:INFO:Initializing load_model()
+2022-06-25 05:21:05,049:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:21:05,217:INFO:Initializing predict_model()
+2022-06-25 05:21:05,217:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:21:05,217:INFO:Checking exceptions
+2022-06-25 05:21:05,217:INFO:Preloading libraries
+2022-06-25 05:22:17,005:INFO:Initializing load_model()
+2022-06-25 05:22:17,006:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:22:17,175:INFO:Initializing predict_model()
+2022-06-25 05:22:17,175:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:22:17,175:INFO:Checking exceptions
+2022-06-25 05:22:17,175:INFO:Preloading libraries
+2022-06-25 05:42:31,492:INFO:Initializing load_model()
+2022-06-25 05:42:31,493:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:42:31,742:INFO:Initializing predict_model()
+2022-06-25 05:42:31,742:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:42:31,742:INFO:Checking exceptions
+2022-06-25 05:42:31,742:INFO:Preloading libraries
+2022-06-25 05:43:04,905:INFO:Initializing load_model()
+2022-06-25 05:43:04,906:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:43:05,065:INFO:Initializing predict_model()
+2022-06-25 05:43:05,065:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:43:05,065:INFO:Checking exceptions
+2022-06-25 05:43:05,065:INFO:Preloading libraries
+2022-06-25 05:45:37,456:INFO:Initializing load_model()
+2022-06-25 05:45:37,456:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:45:37,610:INFO:Initializing predict_model()
+2022-06-25 05:45:37,610:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:45:37,610:INFO:Checking exceptions
+2022-06-25 05:45:37,610:INFO:Preloading libraries
+2022-06-25 05:46:06,292:INFO:Initializing load_model()
+2022-06-25 05:46:06,292:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:46:06,445:INFO:Initializing predict_model()
+2022-06-25 05:46:06,445:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:46:06,445:INFO:Checking exceptions
+2022-06-25 05:46:06,445:INFO:Preloading libraries
+2022-06-25 05:46:36,809:INFO:Initializing load_model()
+2022-06-25 05:46:36,809:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:46:36,966:INFO:Initializing predict_model()
+2022-06-25 05:46:36,966:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:46:36,966:INFO:Checking exceptions
+2022-06-25 05:46:36,966:INFO:Preloading libraries
+2022-06-25 05:47:07,483:INFO:Initializing load_model()
+2022-06-25 05:47:07,483:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:47:07,636:INFO:Initializing predict_model()
+2022-06-25 05:47:07,636:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:47:07,636:INFO:Checking exceptions
+2022-06-25 05:47:07,636:INFO:Preloading libraries
+2022-06-25 05:47:34,563:INFO:Initializing load_model()
+2022-06-25 05:47:34,563:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:47:34,710:INFO:Initializing predict_model()
+2022-06-25 05:47:34,710:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:47:34,710:INFO:Checking exceptions
+2022-06-25 05:47:34,710:INFO:Preloading libraries
+2022-06-25 05:48:14,990:INFO:Initializing load_model()
+2022-06-25 05:48:14,995:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:48:16,915:INFO:Initializing load_model()
+2022-06-25 05:48:16,920:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:48:21,334:INFO:Initializing predict_model()
+2022-06-25 05:48:21,361:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:48:21,371:INFO:Checking exceptions
+2022-06-25 05:48:21,377:INFO:Preloading libraries
+2022-06-25 05:48:23,336:INFO:Initializing predict_model()
+2022-06-25 05:48:23,341:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:48:23,341:INFO:Checking exceptions
+2022-06-25 05:48:23,341:INFO:Preloading libraries
+2022-06-25 05:48:24,344:INFO:Initializing load_model()
+2022-06-25 05:48:24,349:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:48:24,599:INFO:Initializing load_model()
+2022-06-25 05:48:24,600:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:48:25,274:INFO:Initializing predict_model()
+2022-06-25 05:48:25,275:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:48:25,275:INFO:Checking exceptions
+2022-06-25 05:48:25,275:INFO:Preloading libraries
+2022-06-25 05:48:25,306:INFO:Initializing predict_model()
+2022-06-25 05:48:25,319:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:48:25,319:INFO:Checking exceptions
+2022-06-25 05:48:25,319:INFO:Preloading libraries
+2022-06-25 05:49:29,558:INFO:Initializing load_model()
+2022-06-25 05:49:29,558:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:49:29,705:INFO:Initializing predict_model()
+2022-06-25 05:49:29,705:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:49:29,706:INFO:Checking exceptions
+2022-06-25 05:49:29,706:INFO:Preloading libraries
+2022-06-25 05:50:02,865:INFO:Initializing load_model()
+2022-06-25 05:50:02,865:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:50:03,029:INFO:Initializing predict_model()
+2022-06-25 05:50:03,029:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:50:03,029:INFO:Checking exceptions
+2022-06-25 05:50:03,029:INFO:Preloading libraries
+2022-06-25 05:50:17,786:INFO:Initializing load_model()
+2022-06-25 05:50:17,787:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:50:17,933:INFO:Initializing predict_model()
+2022-06-25 05:50:17,933:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:50:17,933:INFO:Checking exceptions
+2022-06-25 05:50:17,933:INFO:Preloading libraries
+2022-06-25 05:50:29,395:INFO:Initializing load_model()
+2022-06-25 05:50:29,396:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:50:29,548:INFO:Initializing predict_model()
+2022-06-25 05:50:29,548:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:50:29,548:INFO:Checking exceptions
+2022-06-25 05:50:29,548:INFO:Preloading libraries
+2022-06-25 05:51:19,700:INFO:Initializing load_model()
+2022-06-25 05:51:19,700:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:51:19,852:INFO:Initializing predict_model()
+2022-06-25 05:51:19,852:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:51:19,852:INFO:Checking exceptions
+2022-06-25 05:51:19,852:INFO:Preloading libraries
+2022-06-25 05:51:48,290:INFO:Initializing load_model()
+2022-06-25 05:51:48,291:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:51:48,443:INFO:Initializing predict_model()
+2022-06-25 05:51:48,443:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:51:48,443:INFO:Checking exceptions
+2022-06-25 05:51:48,443:INFO:Preloading libraries
+2022-06-25 05:53:36,304:INFO:Initializing load_model()
+2022-06-25 05:53:36,304:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:53:36,461:INFO:Initializing predict_model()
+2022-06-25 05:53:36,461:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:53:36,461:INFO:Checking exceptions
+2022-06-25 05:53:36,461:INFO:Preloading libraries
+2022-06-25 05:59:40,227:INFO:Initializing load_model()
+2022-06-25 05:59:40,227:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 05:59:40,381:INFO:Initializing predict_model()
+2022-06-25 05:59:40,381:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 05:59:40,381:INFO:Checking exceptions
+2022-06-25 05:59:40,381:INFO:Preloading libraries
+2022-06-25 06:03:06,353:INFO:Initializing load_model()
+2022-06-25 06:03:06,353:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:03:06,500:INFO:Initializing predict_model()
+2022-06-25 06:03:06,500:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:03:06,500:INFO:Checking exceptions
+2022-06-25 06:03:06,501:INFO:Preloading libraries
+2022-06-25 06:22:23,202:INFO:Initializing load_model()
+2022-06-25 06:22:23,202:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:22:23,354:INFO:Initializing predict_model()
+2022-06-25 06:22:23,354:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:22:23,354:INFO:Checking exceptions
+2022-06-25 06:22:23,354:INFO:Preloading libraries
+2022-06-25 06:36:44,177:INFO:Initializing load_model()
+2022-06-25 06:36:44,177:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:36:44,326:INFO:Initializing predict_model()
+2022-06-25 06:36:44,326:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:36:44,326:INFO:Checking exceptions
+2022-06-25 06:36:44,326:INFO:Preloading libraries
+2022-06-25 06:36:57,853:INFO:Initializing load_model()
+2022-06-25 06:36:57,853:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:36:58,007:INFO:Initializing predict_model()
+2022-06-25 06:36:58,007:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:36:58,007:INFO:Checking exceptions
+2022-06-25 06:36:58,007:INFO:Preloading libraries
+2022-06-25 06:44:04,417:INFO:Initializing load_model()
+2022-06-25 06:44:04,423:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:44:11,225:INFO:Initializing predict_model()
+2022-06-25 06:44:11,251:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:44:11,267:INFO:Checking exceptions
+2022-06-25 06:44:11,267:INFO:Preloading libraries
+2022-06-25 06:44:12,283:INFO:Initializing load_model()
+2022-06-25 06:44:12,283:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:44:15,664:INFO:Initializing predict_model()
+2022-06-25 06:44:15,670:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:44:15,675:INFO:Checking exceptions
+2022-06-25 06:44:15,675:INFO:Preloading libraries
+2022-06-25 06:44:20,219:INFO:Initializing load_model()
+2022-06-25 06:44:20,219:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:44:20,366:INFO:Initializing predict_model()
+2022-06-25 06:44:20,366:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:44:20,366:INFO:Checking exceptions
+2022-06-25 06:44:20,366:INFO:Preloading libraries
+2022-06-25 06:45:30,738:INFO:Initializing load_model()
+2022-06-25 06:45:30,738:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:45:30,905:INFO:Initializing predict_model()
+2022-06-25 06:45:30,905:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:45:30,906:INFO:Checking exceptions
+2022-06-25 06:45:30,906:INFO:Preloading libraries
+2022-06-25 06:45:51,645:INFO:Initializing load_model()
+2022-06-25 06:45:51,646:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:45:51,806:INFO:Initializing predict_model()
+2022-06-25 06:45:51,807:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:45:51,807:INFO:Checking exceptions
+2022-06-25 06:45:51,807:INFO:Preloading libraries
+2022-06-25 06:46:29,928:INFO:Initializing load_model()
+2022-06-25 06:46:29,929:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:46:30,077:INFO:Initializing predict_model()
+2022-06-25 06:46:30,077:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:46:30,077:INFO:Checking exceptions
+2022-06-25 06:46:30,077:INFO:Preloading libraries
+2022-06-25 06:46:48,997:INFO:Initializing load_model()
+2022-06-25 06:46:48,997:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:46:49,144:INFO:Initializing predict_model()
+2022-06-25 06:46:49,144:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:46:49,144:INFO:Checking exceptions
+2022-06-25 06:46:49,144:INFO:Preloading libraries
+2022-06-25 06:47:21,652:INFO:Initializing load_model()
+2022-06-25 06:47:21,652:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:47:21,804:INFO:Initializing predict_model()
+2022-06-25 06:47:21,804:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:47:21,804:INFO:Checking exceptions
+2022-06-25 06:47:21,804:INFO:Preloading libraries
+2022-06-25 06:48:12,787:INFO:Initializing load_model()
+2022-06-25 06:48:12,787:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:48:12,934:INFO:Initializing predict_model()
+2022-06-25 06:48:12,934:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:48:12,934:INFO:Checking exceptions
+2022-06-25 06:48:12,934:INFO:Preloading libraries
+2022-06-25 06:48:26,419:INFO:Initializing load_model()
+2022-06-25 06:48:26,419:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:48:26,573:INFO:Initializing predict_model()
+2022-06-25 06:48:26,573:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:48:26,573:INFO:Checking exceptions
+2022-06-25 06:48:26,573:INFO:Preloading libraries
+2022-06-25 06:49:47,405:INFO:Initializing load_model()
+2022-06-25 06:49:47,416:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:49:57,716:INFO:Initializing predict_model()
+2022-06-25 06:49:57,742:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:49:57,752:INFO:Checking exceptions
+2022-06-25 06:49:57,784:INFO:Preloading libraries
+2022-06-25 06:50:00,472:INFO:Initializing load_model()
+2022-06-25 06:50:00,473:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:50:11,022:INFO:Initializing predict_model()
+2022-06-25 06:50:11,027:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:50:11,053:INFO:Checking exceptions
+2022-06-25 06:50:11,059:INFO:Preloading libraries
+2022-06-25 06:50:12,150:INFO:Initializing load_model()
+2022-06-25 06:50:12,155:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:50:19,542:INFO:Initializing predict_model()
+2022-06-25 06:50:19,552:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:50:19,557:INFO:Checking exceptions
+2022-06-25 06:50:19,557:INFO:Preloading libraries
+2022-06-25 06:50:22,698:INFO:Initializing load_model()
+2022-06-25 06:50:22,702:INFO:Initializing load_model()
+2022-06-25 06:50:22,702:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:50:22,782:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:50:23,144:INFO:Initializing predict_model()
+2022-06-25 06:50:23,150:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:50:23,150:INFO:Checking exceptions
+2022-06-25 06:50:23,150:INFO:Preloading libraries
+2022-06-25 06:50:23,153:INFO:Initializing predict_model()
+2022-06-25 06:50:23,153:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:50:23,175:INFO:Checking exceptions
+2022-06-25 06:50:23,175:INFO:Preloading libraries
+2022-06-25 06:51:01,996:INFO:Initializing load_model()
+2022-06-25 06:51:02,001:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:51:05,057:INFO:Initializing predict_model()
+2022-06-25 06:51:05,063:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:51:05,068:INFO:Checking exceptions
+2022-06-25 06:51:05,073:INFO:Preloading libraries
+2022-06-25 06:51:05,609:INFO:Initializing load_model()
+2022-06-25 06:51:05,609:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:51:06,018:INFO:Initializing predict_model()
+2022-06-25 06:51:06,018:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:51:06,018:INFO:Checking exceptions
+2022-06-25 06:51:06,018:INFO:Preloading libraries
+2022-06-25 06:51:18,140:INFO:Initializing load_model()
+2022-06-25 06:51:18,140:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:51:18,292:INFO:Initializing predict_model()
+2022-06-25 06:51:18,293:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:51:18,293:INFO:Checking exceptions
+2022-06-25 06:51:18,293:INFO:Preloading libraries
+2022-06-25 06:52:07,880:INFO:Initializing load_model()
+2022-06-25 06:52:07,880:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:52:08,027:INFO:Initializing predict_model()
+2022-06-25 06:52:08,027:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:52:08,027:INFO:Checking exceptions
+2022-06-25 06:52:08,027:INFO:Preloading libraries
+2022-06-25 06:52:48,255:INFO:Initializing load_model()
+2022-06-25 06:52:48,261:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:52:51,210:INFO:Initializing predict_model()
+2022-06-25 06:52:51,215:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:52:51,221:INFO:Checking exceptions
+2022-06-25 06:52:51,221:INFO:Preloading libraries
+2022-06-25 06:52:54,837:INFO:Initializing load_model()
+2022-06-25 06:52:54,837:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-06-25 06:52:54,984:INFO:Initializing predict_model()
+2022-06-25 06:52:54,984:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='classification',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='l...
+                 VotingClassifier(estimators=[('rf',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=616)),
+                                              ('et',
+                                               ExtraTreesClassifier(n_jobs=-1,
+                                                                    random_state=616)),
+                                              ('lightgbm',
+                                               LGBMClassifier(bagging_fraction=0.4,
+                                                              bagging_freq=1,
+                                                              feature_fraction=0.5,
+                                                              min_child_samples=1,
+                                                              min_split_gain=0.1,
+                                                              n_estimators=170,
+                                                              num_leaves=200,
+                                                              random_state=616,
+                                                              reg_alpha=0.4,
+                                                              reg_lambda=0.0001))],
+                                  n_jobs=-1, voting='soft')]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-25 06:52:54,984:INFO:Checking exceptions
+2022-06-25 06:52:54,984:INFO:Preloading libraries

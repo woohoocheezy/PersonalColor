@@ -50,12 +50,12 @@
 })(jQuery);
 
 function shareFacebook() {
-    var sendUrl = "devpad.tistory.com/"; // 전달할 URL
+    var sendUrl = "54.180.107.116:5000/"; // 전달할 URL
     window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
 }
 
 function shareTwitter() {
     var sendText = "AI 퍼스널컬러"; // 전달할 텍스트
-    var sendUrl = "devpad.tistory.com/"; // 전달할 URL
+    var sendUrl = "54.180.107.116:5000/"; // 전달할 URL
     window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
 }
